@@ -1,0 +1,17 @@
+.search-form{
+    height: 5px;
+    display: flex;
+}
+
+.search-form input{
+    border-style: none;
+    border-radius: 20px 0px 0px 20px;
+    height: 4px;
+}
+
+.search-form button{
+    height: 24px;
+    border-style: none;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}

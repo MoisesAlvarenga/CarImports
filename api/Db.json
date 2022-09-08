@@ -1,0 +1,28 @@
+{
+    "brands":[
+        {   "id": 1,
+            "name": "Ford",
+            "founded": "16/06/1903",
+            "founder": "Henry Ford",
+            "country": "EUA",
+            "city": "Detroit"
+        }
+    ],
+    "models":[
+        {
+            "id": 1,
+            "name": "Mustang",
+            "brandId": 1
+        }
+    ],
+    "versions":[
+        {
+            "versionName": "Eleanor",
+            "motor": "v8"
+        },
+        {
+            "versionName": "Shelby",
+            "motor": "v6"
+        }
+    ]
+}
