@@ -6,11 +6,11 @@ import { BrandsComponent } from './brands.component';
 
 @NgModule({
   declarations: [
-    BrandsComponent
+    BrandsComponent,
   ],
   imports: [
     CommonModule,
-    BrandsRoutingModule
+    BrandsRoutingModule,
   ]
 })
 export class BrandsModule { }

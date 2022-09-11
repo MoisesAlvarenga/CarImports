@@ -5,7 +5,8 @@
             "founded": "16/06/1903",
             "founder": "Henry Ford",
             "country": "EUA",
-            "city": "Detroit"
+            "city": "Detroit",
+            "image": "/assets/ford.png"
         }
     ],
     "models":[

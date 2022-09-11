@@ -5,4 +5,5 @@ export class Brand{
     founder?:string;
     country?:string;
     city?:string;
+    image?:string;
 }

@@ -1,5 +1,15 @@
-<table>
-    <tr *ngFor="let brand of brands">
-        <td>{{brand.name}}</td>
-    </tr>
-</table>
+<section class="brand-list">
+    <div class="brand-list__card" *ngFor="let brand of brands">
+        <a>
+            <img class="brand-list__link" [src]="brand.image">
+            <h1 class="brand-item__name">Fundador: {{brand.founder}}</h1><br>
+            <div class="brand-info">
+                <p> País de origem: {{brand.country}}</p><br>
+                <p>Cidade: {{brand.city}}</p><br>
+                <p>Fundada em: {{brand.founded}}</p>
+            </div>
+            
+        </a>
+    </div>
+</section>
+

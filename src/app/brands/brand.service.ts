@@ -8,12 +8,12 @@ import { Brand } from 'src/Models/brand';
 })
 export class BrandService {
 
-  url = "http://localhost:3000/brands"
+  url = "http://localhost:3000"
 
-  constructor(private http: HttpClient) { }
+  constructor(private http:HttpClient) { }
 
 
   get():Observable<Brand[]>{
-    return this.http.get<Brand[]>(this.url)
+    return this.http.get<Brand[]>(`${this.url}/brands`);
   }
 }
